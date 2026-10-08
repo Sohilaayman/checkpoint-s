@@ -1,6 +1,6 @@
 package main
 
-func convertSeconds(totalSeconds int) []int {
+func ConvertSeconds(totalSeconds int) []int {
 	hours := totalSeconds / 3600
 	remainding := totalSeconds % 3600
 
